@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files = ["test/test_all.rb", "test/test_date.rb", "test/test_dur.rb", "test/test_field.rb", "test/test_ical.rb", "test/test_repo.rb", "test/test_rrule.rb", "test/test_vcard.rb", "test/test_view.rb"]
 
   s.add_dependency 'vpim'
-  s.add_dependency 'activesupport', '~> 4.2.2'
+  s.add_dependency 'activesupport', '~> 5.0.0'
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
